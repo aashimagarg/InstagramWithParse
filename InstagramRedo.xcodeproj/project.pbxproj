@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		596B39F81C86484800274758 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596B39F71C86484800274758 /* AppDelegate.swift */; };
+		596B39FA1C86484800274758 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596B39F91C86484800274758 /* ViewController.swift */; };
+		596B39FD1C86484800274758 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 596B39FB1C86484800274758 /* Main.storyboard */; };
+		596B39FF1C86484800274758 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 596B39FE1C86484800274758 /* Assets.xcassets */; };
+		596B3A021C86484800274758 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 596B3A001C86484800274758 /* LaunchScreen.storyboard */; };
+		596B3A0D1C86484800274758 /* InstagramRedoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596B3A0C1C86484800274758 /* InstagramRedoTests.swift */; };
+		596B3A181C86484800274758 /* InstagramRedoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596B3A171C86484800274758 /* InstagramRedoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		596B3A091C86484800274758 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 596B39EC1C86484800274758 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 596B39F31C86484800274758;
+			remoteInfo = InstagramRedo;
+		};
+		596B3A141C86484800274758 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 596B39EC1C86484800274758 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 596B39F31C86484800274758;
+			remoteInfo = InstagramRedo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		596B39F41C86484800274758 /* InstagramRedo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramRedo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		596B39F71C86484800274758 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		596B39F91C86484800274758 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		596B39FC1C86484800274758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		596B39FE1C86484800274758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		596B3A011C86484800274758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		596B3A031C86484800274758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		596B3A081C86484800274758 /* InstagramRedoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramRedoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		596B3A0C1C86484800274758 /* InstagramRedoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramRedoTests.swift; sourceTree = "<group>"; };
+		596B3A0E1C86484800274758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		596B3A131C86484800274758 /* InstagramRedoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramRedoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		596B3A171C86484800274758 /* InstagramRedoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramRedoUITests.swift; sourceTree = "<group>"; };
+		596B3A191C86484800274758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		596B39F11C86484800274758 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		596B3A051C86484800274758 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		596B3A101C86484800274758 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		596B39EB1C86484800274758 = {
+			isa = PBXGroup;
+			children = (
+				596B39F61C86484800274758 /* InstagramRedo */,
+				596B3A0B1C86484800274758 /* InstagramRedoTests */,
+				596B3A161C86484800274758 /* InstagramRedoUITests */,
+				596B39F51C86484800274758 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		596B39F51C86484800274758 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				596B39F41C86484800274758 /* InstagramRedo.app */,
+				596B3A081C86484800274758 /* InstagramRedoTests.xctest */,
+				596B3A131C86484800274758 /* InstagramRedoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		596B39F61C86484800274758 /* InstagramRedo */ = {
+			isa = PBXGroup;
+			children = (
+				596B39F71C86484800274758 /* AppDelegate.swift */,
+				596B39F91C86484800274758 /* ViewController.swift */,
+				596B39FB1C86484800274758 /* Main.storyboard */,
+				596B39FE1C86484800274758 /* Assets.xcassets */,
+				596B3A001C86484800274758 /* LaunchScreen.storyboard */,
+				596B3A031C86484800274758 /* Info.plist */,
+			);
+			path = InstagramRedo;
+			sourceTree = "<group>";
+		};
+		596B3A0B1C86484800274758 /* InstagramRedoTests */ = {
+			isa = PBXGroup;
+			children = (
+				596B3A0C1C86484800274758 /* InstagramRedoTests.swift */,
+				596B3A0E1C86484800274758 /* Info.plist */,
+			);
+			path = InstagramRedoTests;
+			sourceTree = "<group>";
+		};
+		596B3A161C86484800274758 /* InstagramRedoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				596B3A171C86484800274758 /* InstagramRedoUITests.swift */,
+				596B3A191C86484800274758 /* Info.plist */,
+			);
+			path = InstagramRedoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		596B39F31C86484800274758 /* InstagramRedo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 596B3A1C1C86484800274758 /* Build configuration list for PBXNativeTarget "InstagramRedo" */;
+			buildPhases = (
+				596B39F01C86484800274758 /* Sources */,
+				596B39F11C86484800274758 /* Frameworks */,
+				596B39F21C86484800274758 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstagramRedo;
+			productName = InstagramRedo;
+			productReference = 596B39F41C86484800274758 /* InstagramRedo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		596B3A071C86484800274758 /* InstagramRedoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 596B3A1F1C86484800274758 /* Build configuration list for PBXNativeTarget "InstagramRedoTests" */;
+			buildPhases = (
+				596B3A041C86484800274758 /* Sources */,
+				596B3A051C86484800274758 /* Frameworks */,
+				596B3A061C86484800274758 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				596B3A0A1C86484800274758 /* PBXTargetDependency */,
+			);
+			name = InstagramRedoTests;
+			productName = InstagramRedoTests;
+			productReference = 596B3A081C86484800274758 /* InstagramRedoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		596B3A121C86484800274758 /* InstagramRedoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 596B3A221C86484800274758 /* Build configuration list for PBXNativeTarget "InstagramRedoUITests" */;
+			buildPhases = (
+				596B3A0F1C86484800274758 /* Sources */,
+				596B3A101C86484800274758 /* Frameworks */,
+				596B3A111C86484800274758 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				596B3A151C86484800274758 /* PBXTargetDependency */,
+			);
+			name = InstagramRedoUITests;
+			productName = InstagramRedoUITests;
+			productReference = 596B3A131C86484800274758 /* InstagramRedoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		596B39EC1C86484800274758 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Aashima Garg";
+				TargetAttributes = {
+					596B39F31C86484800274758 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = J29EQ9363G;
+					};
+					596B3A071C86484800274758 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = J29EQ9363G;
+						TestTargetID = 596B39F31C86484800274758;
+					};
+					596B3A121C86484800274758 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = J29EQ9363G;
+						TestTargetID = 596B39F31C86484800274758;
+					};
+				};
+			};
+			buildConfigurationList = 596B39EF1C86484800274758 /* Build configuration list for PBXProject "InstagramRedo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 596B39EB1C86484800274758;
+			productRefGroup = 596B39F51C86484800274758 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				596B39F31C86484800274758 /* InstagramRedo */,
+				596B3A071C86484800274758 /* InstagramRedoTests */,
+				596B3A121C86484800274758 /* InstagramRedoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		596B39F21C86484800274758 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				596B3A021C86484800274758 /* LaunchScreen.storyboard in Resources */,
+				596B39FF1C86484800274758 /* Assets.xcassets in Resources */,
+				596B39FD1C86484800274758 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		596B3A061C86484800274758 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		596B3A111C86484800274758 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		596B39F01C86484800274758 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				596B39FA1C86484800274758 /* ViewController.swift in Sources */,
+				596B39F81C86484800274758 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		596B3A041C86484800274758 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				596B3A0D1C86484800274758 /* InstagramRedoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		596B3A0F1C86484800274758 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				596B3A181C86484800274758 /* InstagramRedoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		596B3A0A1C86484800274758 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 596B39F31C86484800274758 /* InstagramRedo */;
+			targetProxy = 596B3A091C86484800274758 /* PBXContainerItemProxy */;
+		};
+		596B3A151C86484800274758 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 596B39F31C86484800274758 /* InstagramRedo */;
+			targetProxy = 596B3A141C86484800274758 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		596B39FB1C86484800274758 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				596B39FC1C86484800274758 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		596B3A001C86484800274758 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				596B3A011C86484800274758 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		596B3A1A1C86484800274758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		596B3A1B1C86484800274758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		596B3A1D1C86484800274758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InstagramRedo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.InstagramRedo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		596B3A1E1C86484800274758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InstagramRedo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.InstagramRedo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		596B3A201C86484800274758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InstagramRedoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.InstagramRedoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstagramRedo.app/InstagramRedo";
+			};
+			name = Debug;
+		};
+		596B3A211C86484800274758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InstagramRedoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.InstagramRedoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstagramRedo.app/InstagramRedo";
+			};
+			name = Release;
+		};
+		596B3A231C86484800274758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InstagramRedoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.InstagramRedoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InstagramRedo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		596B3A241C86484800274758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InstagramRedoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.InstagramRedoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InstagramRedo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		596B39EF1C86484800274758 /* Build configuration list for PBXProject "InstagramRedo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				596B3A1A1C86484800274758 /* Debug */,
+				596B3A1B1C86484800274758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		596B3A1C1C86484800274758 /* Build configuration list for PBXNativeTarget "InstagramRedo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				596B3A1D1C86484800274758 /* Debug */,
+				596B3A1E1C86484800274758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		596B3A1F1C86484800274758 /* Build configuration list for PBXNativeTarget "InstagramRedoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				596B3A201C86484800274758 /* Debug */,
+				596B3A211C86484800274758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		596B3A221C86484800274758 /* Build configuration list for PBXNativeTarget "InstagramRedoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				596B3A231C86484800274758 /* Debug */,
+				596B3A241C86484800274758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 596B39EC1C86484800274758 /* Project object */;
+}
